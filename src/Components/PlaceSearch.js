@@ -146,7 +146,7 @@ export default function BasicSelect() {
                         <Grid item xs={12}>
                           <CardMedia
                             component="img"
-                            style={{ height: "60px" }}
+                            style={{ maxHeight: "180px" }}
                             image={item.images[0]}
                             alt={item.name}
                           />
