@@ -12,10 +12,11 @@ import {
   CardContent,
   Typography,
 } from "@mui/material";
+import "../App.css";
 import data from "../Data/example_data.json";
 
 export default function BasicSelect() {
-  const [types, setTypes] = React.useState("");
+  const [types, setTypes] = React.useState("restaurant");
   const [name, setName] = React.useState("");
 
   const handleChangeName = (event) => {

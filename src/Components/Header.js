@@ -28,9 +28,9 @@ const Header = () => {
               sx={{ flexGrow: 0 }}
               mx={2}
             >
-              <Badge color="error" variant="dot">
+              {/* <Badge color="error" variant="dot">
                 <NotificationsIcon/>
-              </Badge>
+              </Badge> */}
               <IconButton sx={{ p: 1 }}>
                 <Avatar alt="Akkrapol" src={avatar1} />
               </IconButton>
