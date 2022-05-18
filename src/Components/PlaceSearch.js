@@ -3,7 +3,6 @@ import {
   Container,
   Box,
   MenuItem,
-  FormControl,
   Select,
   TextField,
   Grid,
@@ -12,7 +11,6 @@ import {
   CardMedia,
   CardContent,
   Typography,
-  Button,
 } from "@mui/material";
 import data from "../Data/example_data.json";
 

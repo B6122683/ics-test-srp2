@@ -4,13 +4,8 @@ import {
   Box,
   Toolbar,
   IconButton,
-  Typography,
-  Menu,
   Container,
   Avatar,
-  Button,
-  Tooltip,
-  MenuItem,
   Badge,
 } from "@mui/material";
 import NotificationsIcon from "@mui/icons-material/Notifications";
@@ -33,10 +28,10 @@ const Header = () => {
               sx={{ flexGrow: 0 }}
               mx={2}
             >
-              {/* <Badge color="error" variant="dot">
-                <NotificationsIcon />
-              </Badge> */}
-              <IconButton sx={{ p: 0 }}>
+              <Badge color="error" variant="dot">
+                <NotificationsIcon/>
+              </Badge>
+              <IconButton sx={{ p: 1 }}>
                 <Avatar alt="Akkrapol" src={avatar1} />
               </IconButton>
 
